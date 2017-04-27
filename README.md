@@ -1,6 +1,6 @@
 # npmdoc-detective
 
-#### api documentation for  [detective (v4.5.0)](https://github.com/substack/node-detective#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-detective.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-detective) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-detective.svg)](https://travis-ci.org/npmdoc/node-npmdoc-detective)
+#### basic api documentation for  [detective (v4.5.0)](https://github.com/substack/node-detective#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-detective.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-detective) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-detective.svg)](https://travis-ci.org/npmdoc/node-npmdoc-detective)
 
 #### find all require() calls by walking the AST
 
@@ -68,7 +68,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "4.5.0"
+    "version": "4.5.0",
+    "bin": {}
 }
 ```
 
